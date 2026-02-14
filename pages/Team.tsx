@@ -62,8 +62,22 @@ export const Team: React.FC = () => {
                 </p>
 
                 <div className="flex gap-4 mt-auto border-t border-white/5 pt-4">
-                  <a href="#" className="text-slate-500 hover:text-white transition-colors"><Linkedin size={16} /></a>
-                  <a href="#" className="text-slate-500 hover:text-white transition-colors"><Mail size={16} /></a>
+                  <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-slate-500 hover:text-white transition-colors"
+                  >
+                    <Linkedin size={16} />
+                  </a>
+                  <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-slate-500 hover:text-white transition-colors"
+                  >
+                    <Mail size={16} />
+                  </a>
                 </div>
              </div>
            ))}

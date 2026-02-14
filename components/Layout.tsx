@@ -131,11 +131,21 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col items-center gap-8">
           
           <div className="flex gap-8">
-             <a href="#" className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors">
+             <a 
+               href="#" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
+             >
                <Instagram size={18} />
                <span className="font-display text-[10px] tracking-widest">INSTAGRAM</span>
              </a>
-             <a href="#" className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors">
+             <a 
+               href="#" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
+             >
                <School size={18} />
                <span className="font-display text-[10px] tracking-widest">PES UNIVERSITY</span>
              </a>
