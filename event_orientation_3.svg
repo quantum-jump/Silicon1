@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#111122"/>
+  <rect x="200" y="200" width="400" height="200" rx="20" stroke="#a855f7" stroke-width="2"/>
+  <circle cx="300" cy="300" r="40" fill="#333344"/>
+  <circle cx="400" cy="300" r="40" fill="#333344"/>
+  <circle cx="500" cy="300" r="40" fill="#333344"/>
+  <text x="400" y="500" text-anchor="middle" font-family="monospace" fill="#a855f7" font-size="24">SILICON TEAM</text>
+  <text x="400" y="540" text-anchor="middle" font-family="sans-serif" fill="#666" font-size="14">Replace with event_orientation_3.jpg</text>
+</svg>

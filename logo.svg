@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8b4fe" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="250" cy="250" r="230" stroke="white" stroke-width="12" />
+  
+  <!-- Tech Head Profile -->
+  <path d="M180,100 H280 C340,100 380,140 380,200 V220 C380,240 390,250 400,260 C380,280 380,300 380,320 V350 C380,400 340,440 280,440 H180" 
+        stroke="url(#grad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" />
+        
+  <!-- Brain/Circuit Details -->
+  <!-- Chip -->
+  <rect x="210" y="170" width="70" height="50" rx="4" stroke="white" stroke-width="5" />
+  <path d="M225,195 H265" stroke="white" stroke-width="3" />
+  
+  <!-- Circuit Traces -->
+  <path d="M280,195 H320 L340,170" stroke="white" stroke-width="5" stroke-linecap="round" />
+  <circle cx="340" cy="170" r="6" fill="white" />
+  
+  <path d="M245,220 V260 H340 L360,280" stroke="white" stroke-width="5" stroke-linecap="round" />
+  <circle cx="360" cy="280" r="6" fill="white" />
+  
+  <path d="M245,170 V140 H300" stroke="white" stroke-width="5" stroke-linecap="round" />
+  <circle cx="300" cy="140" r="6" fill="white" />
+
+  <!-- Jaw Circuits -->
+  <path d="M220,350 H280 V390 H320" stroke="white" stroke-width="5" stroke-linecap="round" />
+  <circle cx="320" cy="390" r="6" fill="white" />
+  
+  <!-- Eye Region -->
+  <path d="M340,210 V230 M355,210 V230" stroke="#d8b4fe" stroke-width="4" />
+
+  <!-- Text -->
+  <path id="curve" d="M 110,410 Q 250,490 390,410" stroke="none"/>
+  <text font-family="monospace" font-weight="bold" letter-spacing="4" font-size="22" fill="white">
+    <textPath href="#curve" startOffset="50%" text-anchor="middle">NOW MORE THAN MOORE</textPath>
+  </text>
+  
+  <text x="250" y="80" text-anchor="middle" font-family="monospace" font-weight="900" font-size="45" fill="white" letter-spacing="8">SILICON</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#111122"/>
+  <path d="M0 600 C 200 400, 600 400, 800 600" fill="#1a1a2e"/>
+  <circle cx="200" cy="500" r="30" fill="#333344"/>
+  <circle cx="300" cy="520" r="30" fill="#333344"/>
+  <circle cx="400" cy="480" r="30" fill="#333344"/>
+  <circle cx="500" cy="510" r="30" fill="#333344"/>
+  <circle cx="600" cy="490" r="30" fill="#333344"/>
+  <text x="400" y="250" text-anchor="middle" font-family="monospace" fill="#555577" font-size="24">STUDENT AUDIENCE</text>
+  <text x="400" y="300" text-anchor="middle" font-family="sans-serif" fill="#666" font-size="14">Replace with event_orientation_2.jpg</text>
+</svg>
